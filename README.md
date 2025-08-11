@@ -1,2 +1,2 @@
 # Codveda-Task
-python Development internship &lt;br> Author - Akash Bhapkar 
+python Development internship <br> Author - Akash Bhapkar 
