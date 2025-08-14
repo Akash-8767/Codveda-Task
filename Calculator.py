@@ -1,42 +1,40 @@
-def add(x,y):
-    return(x+y)
+def addition (a,b):
+return(a+b)
 
-def sub(x,y):
-    return(x-y)
+def subtraction (a,b):
+return(a-b)
 
-def mult(x,y):
-    return(x*y)
+def multiiplication (a,b):
+return(a*b)
 
-def div(x,y):
-    if y == 0: 
-        return("Can not divide by zero")
-    else:
-        return(x/y)
+def division(a,b):
+if b == 0:
+return("Number can not divide by zero")
+else:
+return(a/b)
 
-
-num1 = int(input("Enter num1:"))
+number a = int(input("Enter num1:"))
 
 print("Choose the Operation:")
-print("1.Addition")
-print("2.Subtraction")
-print("3.Multiplication")
-print("4.Division")
-print("5.Cancel")
+print("1.Add")
+print("2.Sub")
+print("3.Multi")
+print("4.Div")
+print("5.Close All")
 
-choice = int(input("Enter the operation:"))
-
-num2 = int(input("Enter num2:"))
+choice = int(input("choice the operation:"))
+number b = int(input("Enter num2:"))
 
 if choice == 1:
-    print("Addition is", add(num1,num2))
+print("Addition is", add(number a,number b))
 elif choice == 2:
-    print("Subtraction is",sub(num1,num2))
+print("Subtraction is", sub(number a,number b))
 elif choice == 3:
-    print("Multiplication is ",mult(num1,num2))
+print("Multiplication is ", mult(number a,number b))
 elif choice ==4:
-    print("Division is", div(num1,num2))
+print("Division is", div(number a,number b))
 elif choice == 5:
-    print("Calculation is Cancel")
+print("Calculation is Cancel")
 else:
 
-    print("Invalid")
+print("Enter number is invalid")
