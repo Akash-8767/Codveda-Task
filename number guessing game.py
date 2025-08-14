@@ -33,4 +33,5 @@ def random_guessing_game():
         print(" !!! GAME OVER !!!")
 
 # Start the game
-random_guessing_game()
+    random_guessing_game()
+
