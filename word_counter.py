@@ -15,4 +15,5 @@ def wordCounter(fileName):
 words = wordCounter(input("Enter File full path : "))
 
 if(words != None):
+
     print("Words : ",words)
